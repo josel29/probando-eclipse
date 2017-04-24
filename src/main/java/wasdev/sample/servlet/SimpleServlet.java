@@ -1,5 +1,4 @@
 package wasdev.sample.servlet;
-
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,9 +19,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Hola! "+"\n"+" Eclipse1");
-        response.getWriter().print("\n");
-        response.getWriter().print("exlipse1");
+        response.getWriter().print("conectando con git1");
     }
 
 }

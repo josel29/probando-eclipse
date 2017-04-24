@@ -1,8 +1,9 @@
+---
 applications:
 - path: target/JavaHelloWorldApp.war
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: probando-eclipse
-  host: probando-eclipse
+  name: ProbandoEclipse
+  host: ProbandoEclipse
   disk_quota: 1024M
